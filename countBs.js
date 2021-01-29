@@ -1,5 +1,5 @@
 // countBs takes a string as its only argument and returns
-// a number that indicates how many uppercase B characters there are in a string
+// a number that indicates how many uppercase B characters are there in a string
 
 function countBs(mystring) {
     return countChar(mystring,"B");
@@ -16,6 +16,6 @@ function countChar(mystring, character) {
     return counter;
 }
 
-console.log(countBs("Bobby Banana"));
+console.log(countBs("Bobby Banana Banarama"));
 
 
